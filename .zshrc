@@ -120,4 +120,7 @@ if [ -e /home/irfan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/irfan/.nix
 eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/bubblesline.omp.json')"
 
 # Startup Commands
-catnap
+# catnap
+
+# bun completions
+[ -s "/home/irfan/.bun/_bun" ] && source "/home/irfan/.bun/_bun"
