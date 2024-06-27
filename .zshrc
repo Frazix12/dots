@@ -100,8 +100,7 @@ alias zconf="nano ~/.zshrc"
 alias cdc="cd /media/irfan/STUFF/CODE"
 alias vc="code ."
 alias ll="lsd --almost-all --color always"
-alias cls="clear;catnap"
-alias SS="suwayomi-server"
+alias cls="clear;fastfetch"
 
 # Sources
 export BUN_INSTALL="$HOME/.bun"
@@ -119,8 +118,10 @@ if [ -e /home/irfan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/irfan/.nix
 # Oh-My-Posh Setup
 eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/bubblesline.omp.json')"
 
-# Startup Commands
-# catnap
-
 # bun completions
 [ -s "/home/irfan/.bun/_bun" ] && source "/home/irfan/.bun/_bun"
+
+# Startup Commands
+fastfetch
+
+
