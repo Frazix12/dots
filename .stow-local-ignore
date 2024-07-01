@@ -1,7 +1,7 @@
-# Comments and blank lines are allowed.
+# Comments and blank lines are allowed
 
 gitpush.sh
-/docs/
+docs
 RCS
 .+,v
 

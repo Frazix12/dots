@@ -62,6 +62,14 @@ ZSH_HIGHLIGHT_STYLES[cursor]='standout'
 
 
 # Zinit Plugins
+
+# zinit wait lucid light-mode depth=1 for \
+#         zsh-users/zsh-syntax-highlighting \
+#         sh-users/zsh-completions \
+#         zsh-users/zsh-autosuggestions \
+#         hlissner/zsh-autopair \
+#         clarketm/zsh-completions
+
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
@@ -101,6 +109,7 @@ alias cdc="cd /media/irfan/STUFF/CODE"
 alias vc="code ."
 alias ll="lsd --almost-all --color always --group-dirs first"
 alias cls="clear;fastfetch"
+alias btw="fastfetch"
 
 # Sources
 export BUN_INSTALL="$HOME/.bun"
@@ -122,6 +131,6 @@ eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDob
 [ -s "/home/irfan/.bun/_bun" ] && source "/home/irfan/.bun/_bun"
 
 # Startup Commands
-fastfetch
+pokemon-colorscripts -r --no-title 
 
 
