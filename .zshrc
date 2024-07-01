@@ -108,7 +108,8 @@ alias zconf="nano ~/.zshrc"
 alias cdc="cd /media/irfan/STUFF/CODE"
 alias vc="code ."
 alias ll="lsd --almost-all --color always --group-dirs first"
-alias cls="clear;fastfetch"
+alias pks="pokemon-colorscripts -r --no-title"
+alias cls="clear;pks"
 alias btw="fastfetch"
 
 # Sources
