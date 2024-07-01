@@ -1,3 +1,3 @@
 # My Linux Setup
 
-<img src="./docs/ss1.png" alt="Screenshot 1">
+<img src="./docs/ss.gif" alt="Screenshot 1">
