@@ -113,6 +113,7 @@ alias cls="clear;pks"
 alias btw="fastfetch"
 alias i="yay -S"
 alias s="yay -Ss"
+alias cmoi="chezmoi"
 
 # Sources
 export BUN_INSTALL="$HOME/.bun"
