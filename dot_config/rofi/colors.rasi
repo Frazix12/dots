@@ -1,0 +1,63 @@
+* {
+    primary: #b0d18b;
+    primary-fixed: #cbeda5;
+    primary-fixed-dim: #b0d18b;
+    on-primary: #1e3702;
+    on-primary-fixed: #0e2000;
+    on-primary-fixed-variant: #334e17;
+    primary-container: #334e17;
+    on-primary-container: #cbeda5;
+    secondary: #bfcbad;
+    secondary-fixed: #dbe7c8;
+    secondary-fixed-dim: #bfcbad;
+    on-secondary: #2a331f;
+    on-secondary-fixed: #151e0b;
+    on-secondary-fixed-variant: #404a34;
+    secondary-container: #404a34;
+    on-secondary-container: #dbe7c8;
+    tertiary: #a0cfcc;
+    tertiary-fixed: #bbece8;
+    tertiary-fixed-dim: #a0cfcc;
+    on-tertiary: #003735;
+    on-tertiary-fixed: #00201f;
+    on-tertiary-fixed-variant: #1f4e4c;
+    tertiary-container: #1f4e4c;
+    on-tertiary-container: #bbece8;
+    error: #ffb4ab;
+    on-error: #690005;
+    error-container: #93000a;
+    on-error-container: #ffdad6;
+    surface: #12140e;
+    on-surface: #e2e3d8;
+    on-surface-variant: #c4c8ba;
+    outline: #8e9285;
+    outline-variant: #44483d;
+    shadow: #000000;
+    scrim: #000000;
+    inverse-surface: #e2e3d8;
+    inverse-on-surface: #2f312a;
+    inverse-primary: #4a662d;
+    surface-dim: #12140e;
+    surface-bright: #373a33;
+    surface-container-lowest: #0c0f09;
+    surface-container-low: #1a1c16;
+    surface-container: #1e211a;
+    surface-container-high: #282b24;
+    surface-container-highest: #33362e;
+}
+
+/* ROUNDED THEME FOR ROFI */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
+* {
+    bg0:    #212121F2;
+    bg1:    #2A2A2A;
+    bg2:    #3D3D3D80;
+    bg3:    #b0d18b;
+    fg0:    #E6E6E6;
+    fg1:    #FFFFFF;
+    fg2:    #969696;
+    fg3:    #3D3D3D;
+}
+
+@import "./themes/template/rounded-template.rasi"
