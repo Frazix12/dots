@@ -23,7 +23,7 @@ shell     = {icon = " ", name = "shell", color = "(MA)"}
 # battery   = {icon = " ", name = "battery", color = "(GN)"}
 # memory    = {icon = " ", name = "memory", color = "(YW)"}
 # The following stats do not work on MacOS and the BSDs.
-# disk_0    = {icon = " ", name = "disk", color = "(GN)"}
+disk_0    = {icon = " ", name = "disk", color = "(GN)"}
 sep_color = "SEPARATOR"
 colors    = {icon = " ", name = "colors", color = "!DT!", symbol = ""}
 
