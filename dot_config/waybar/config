@@ -6,7 +6,6 @@
         "modules-center": ["hyprland/workspaces"],
         "modules-right": ["group/expand","bluetooth","network"],
 
-
         "hyprland/workspaces": {
             "format": "{icon}",
             "format-icons": {

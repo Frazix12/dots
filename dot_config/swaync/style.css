@@ -1,8 +1,11 @@
+@import "colors.css";
+
+
 :root {
   --border-radius: 22px;
   --cc-bg: transparent;
 
-  --widget-background: rgba(46, 46, 46, 0.7);
+  --widget-background: @background;
   --noti-bg-alpha: 0.6;
 
   --padding: calc(var(--border-radius) / 2);
@@ -19,6 +22,7 @@
   border-radius: var(--border-radius);
   padding: calc(var(--border-radius) / 2);
   border: var(--border);
+  opacity: 0.7;
 }
 
 .control-center-list-placeholder {
@@ -45,7 +49,7 @@
   margin-top: var(--padding);
 }
 .widget-mpris > box > button:hover {
-  background: rgba(46, 46, 46, 1);
+  background: @inverse_on_surface;
 }
 .widget-mpris-player {
   box-shadow: none;

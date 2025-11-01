@@ -4,8 +4,13 @@
 if pgrep -x "waybar" > /dev/null; then
     # If running, kill the waybar process
     pkill -x "waybar"
+    # Restart swaync
+    pkill -x "swaync"
+    swaync &
 else
     # If not running, start waybar
     waybar &
+    # Restart swaync
+    pkill -x "swaync"
+    swaync &
 fi
-

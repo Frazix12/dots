@@ -36,3 +36,12 @@ post_hook = 'pkill -SIGUSR1 kitty'
 input_path = './templates/cava-colors.ini'
 output_path = '~/.config/cava/config'
 post_hook = "pkill -USR1 cava"
+
+[templates.wlogout]
+input_path = './templates/colors.css'
+output_path = '~/.config/wlogout/colors.css'
+
+[templates.swaync]
+input_path = './templates/colors.css'
+output_path = '~/.config/swaync/colors.css'
+post_hook = 'pkill -SIGUSR2 swaync'
