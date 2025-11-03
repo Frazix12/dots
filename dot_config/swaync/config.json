@@ -33,10 +33,11 @@
   "script-fail-notify": true,
 
   "widgets": [
-    "inhibitors",
-    "dnd",
-    "mpris",
-    "notifications"
+  "inhibitors",
+  "dnd",
+  "mpris",
+  "volume",
+  "notifications"
   ],
   "widget-config": {
     "notifications": {
@@ -47,6 +48,10 @@
       "button-text": "Clear All",
       "clear-all-button": true
     },
+    "volume": {
+      "show-per-app": true
+    },
+
     "title": {
       "text": "Notifications",
       "clear-all-button": false,

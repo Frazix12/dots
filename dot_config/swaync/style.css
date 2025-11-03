@@ -59,3 +59,13 @@
 .widget-mpris-player:only-child {
   margin: 0;
 }
+
+/* Volume slider customization */
+.widget-volume scale trough,.widget-volume scale trough highlight {
+  background-color: @on_primary_fixed;
+}
+
+.widget-volume scale slider {
+  background-color: @on_primary_container;
+}
+
