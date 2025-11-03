@@ -25,7 +25,7 @@ If you manage dotfiles with `chezmoi`, you can apply this repository's files (re
 
 ```bash
 # initialize and apply from a git repo (example)
-chezmoi init --apply git@github.com:Frazix12/dots.git
+chezmoi init --apply https://github.com/Frazix12/dots.git
 ```
 
 Or manually copy the pieces you want from the `dot_config/` folder into your home config directory.
