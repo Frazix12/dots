@@ -14,3 +14,4 @@ configuration{
 }
 
 @theme "~/.config/rofi/colors.rasi"
+@import "./themes/template/rounded-template.rasi"

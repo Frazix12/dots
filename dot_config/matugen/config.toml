@@ -1,6 +1,6 @@
 [config.wallpaper]
 command = "swww"
-arguments = ["img", "--transition-type", "center"]
+arguments = ["img", "--transition-type", "simple"]
 set = true
 
 
@@ -45,3 +45,11 @@ output_path = '~/.config/wlogout/colors.css'
 input_path = './templates/colors.css'
 output_path = '~/.config/swaync/colors.css'
 post_hook = 'pkill -SIGUSR2 swaync'
+
+[templates.code]
+input_path = './templates/code.json'
+output_path = '~/.vscode/extensions/hyprluna.hyprluna-theme-1.0.2/themes/hyprluna.json'
+
+[templates.walker]
+input_path = './templates/colors.css'
+output_path = '~/.config/walker/themes/matugen/colors.css'

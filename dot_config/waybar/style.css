@@ -102,6 +102,12 @@ tooltip {
     color:@on_secondary_container;
 
 }
+
+#custom-powermenu {
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color:@on_secondary_container;
+}
 #battery{
     padding: 0px 5px;
     transition: all .3s ease;

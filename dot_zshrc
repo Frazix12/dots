@@ -134,3 +134,5 @@ eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDob
 pokemon-colorscripts -r --no-title 
 
 
+
+. "$HOME/.local/share/../bin/env"

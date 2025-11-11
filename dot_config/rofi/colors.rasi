@@ -1,48 +1,48 @@
 * {
-    primary: #95d5a7;
-    primary-fixed: #b1f1c2;
-    primary-fixed-dim: #95d5a7;
-    on-primary: #00391d;
-    on-primary-fixed: #00210e;
-    on-primary-fixed-variant: #10512e;
-    primary-container: #10512e;
-    on-primary-container: #b1f1c2;
-    secondary: #b6ccb9;
-    secondary-fixed: #d2e8d4;
-    secondary-fixed-dim: #b6ccb9;
-    on-secondary: #223527;
-    on-secondary-fixed: #0d1f13;
-    on-secondary-fixed-variant: #384b3d;
-    secondary-container: #384b3d;
-    on-secondary-container: #d2e8d4;
-    tertiary: #a2cdda;
-    tertiary-fixed: #beeaf7;
-    tertiary-fixed-dim: #a2cdda;
-    on-tertiary: #023640;
-    on-tertiary-fixed: #001f26;
-    on-tertiary-fixed-variant: #214c57;
-    tertiary-container: #214c57;
-    on-tertiary-container: #beeaf7;
+    primary: #97d5a5;
+    primary-fixed: #b3f1bf;
+    primary-fixed-dim: #97d5a5;
+    on-primary: #00391a;
+    on-primary-fixed: #00210d;
+    on-primary-fixed-variant: #15512d;
+    primary-container: #15512d;
+    on-primary-container: #b3f1bf;
+    secondary: #b6ccb8;
+    secondary-fixed: #d2e8d3;
+    secondary-fixed-dim: #b6ccb8;
+    on-secondary: #223526;
+    on-secondary-fixed: #0d1f12;
+    on-secondary-fixed-variant: #384b3c;
+    secondary-container: #384b3c;
+    on-secondary-container: #d2e8d3;
+    tertiary: #a2ced9;
+    tertiary-fixed: #beeaf6;
+    tertiary-fixed-dim: #a2ced9;
+    on-tertiary: #01363f;
+    on-tertiary-fixed: #001f25;
+    on-tertiary-fixed-variant: #204d56;
+    tertiary-container: #204d56;
+    on-tertiary-container: #beeaf6;
     error: #ffb4ab;
     on-error: #690005;
     error-container: #93000a;
     on-error-container: #ffdad6;
     surface: #101510;
-    on-surface: #dfe4dd;
-    on-surface-variant: #c0c9bf;
+    on-surface: #dfe4dc;
+    on-surface-variant: #c1c9bf;
     outline: #8b938a;
-    outline-variant: #414942;
+    outline-variant: #414941;
     shadow: #000000;
     scrim: #000000;
-    inverse-surface: #dfe4dd;
-    inverse-on-surface: #2c322d;
-    inverse-primary: #2d6a44;
+    inverse-surface: #dfe4dc;
+    inverse-on-surface: #2d322d;
+    inverse-primary: #306a43;
     surface-dim: #101510;
-    surface-bright: #353a36;
+    surface-bright: #353a35;
     surface-container-lowest: #0a0f0b;
     surface-container-low: #181d18;
     surface-container: #1c211c;
-    surface-container-high: #262b27;
+    surface-container-high: #262b26;
     surface-container-highest: #313631;
 }
 
@@ -50,14 +50,29 @@
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
-    bg0:    #212121F2;
+    bg0:    #2121219f;
     bg1:    #2A2A2A;
     bg2:    #3D3D3D80;
-    bg3:    #95d5a7;
+    bg3:    #97d5a5;
     fg0:    #E6E6E6;
     fg1:    #FFFFFF;
     fg2:    #969696;
     fg3:    #3D3D3D;
-}
 
-@import "./themes/template/rounded-template.rasi"
+    border: #81A1C100;
+    background: @bg0;
+    textcolor: #e0def4;
+    accent1: #cc241d;
+    accent2: #98971a;
+    accent3: #d79921;
+    accent4: #458588;
+    selection: @on-secondary;
+    selectionborder: @bg3;
+    myhigh: bold #c4a7e7;
+    searchcolor: #e0def499;
+    powermenuselect: @bg3;
+    nul: #00000000;
+    borderradius: 20px;
+
+    borderradiuselement: 9px;
+}
