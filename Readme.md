@@ -1,6 +1,6 @@
 # Hyprland rice — Arch dotfiles
 
-![Preview](preview.png)
+![Preview](docs/preview.png)
 
 A small, opinionated rice for Arch Linux running Hyprland. This repository contains my personal dotfiles (managed with chezmoi) and a lightweight Hyprland setup tuned for a clean, minimal desktop.
 

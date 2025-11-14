@@ -34,7 +34,7 @@ for wallpaper in "${wallpapers[@]}"; do
 done
 
 # Display wallpapers in rofi with image preview and get selection
-selected=$(cat "$temp_file" | rofi -dmenu -i -p "Select Wallpaper" -show-icons)
+selected=$(cat "$temp_file" | rofi -dmenu -i -p "Select Wallpaper" -show-icons -theme "~/.config/rofi/wallpaper.rasi" -format "f")
 
 # Clean up temporary file
 rm "$temp_file"

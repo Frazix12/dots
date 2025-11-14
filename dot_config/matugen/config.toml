@@ -53,3 +53,7 @@ output_path = '~/.vscode/extensions/hyprluna.hyprluna-theme-1.0.2/themes/hyprlun
 [templates.walker]
 input_path = './templates/colors.css'
 output_path = '~/.config/walker/themes/matugen/colors.css'
+
+# [templates.chwall]
+# input_path = './templates/colors.qml'
+# output_path = '~/.config/chwall/colors.qml'
